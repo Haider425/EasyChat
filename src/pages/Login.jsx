@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Login = () => {
   const navigate = useNavigate();
   const {currentUser, signInWithGoogle} = userAuth();
-  console.log(currentUser);
+  //console.log(currentUser);
   
   const handleLogin = async () => {
 
